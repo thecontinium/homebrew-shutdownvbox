@@ -6,7 +6,7 @@ class ShutdownVbox < Formula
   skip_clean 'bin'
 
   def install
-    bin.install 'homebrewupdate'
+    bin.install 'shutdown-vbox'
   end
 
   #plist_options :startup => true
