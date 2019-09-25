@@ -1,7 +1,7 @@
 class ShutdownVbox < Formula
   homepage 'https://github.com/thecontinium/homebrew-shutdownvbox/'
   url 'https://github.com/thecontinium/homebrew-shutdownvbox.git'
-  version '0.0.2'
+  version '0.0.3'
 
   skip_clean 'bin'
 
