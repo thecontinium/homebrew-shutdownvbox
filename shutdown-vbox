@@ -10,7 +10,7 @@ function shutdown()
   echo `date` " " `whoami` " Received a signal to shutdown"
 
   # INSERT HERE THE COMMAND YOU WANT EXECUTE AT SHUTDOWN
-  VboxManage controlvm "Windows 10" savestate
+  /usr/local/bin/VboxManage controlvm "Windows 10" savestate
 
   exit 0
 }
