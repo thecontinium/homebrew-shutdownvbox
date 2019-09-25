@@ -1,7 +1,7 @@
 class ShutdownVbox < Formula
   homepage 'https://github.com/thecontinium/homebrew-shutdownvbox/'
   url 'https://github.com/thecontinium/homebrew-shutdownvbox.git'
-  version '0.0.4'
+  version '0.0.5'
 
   skip_clean 'bin'
 
@@ -14,7 +14,7 @@ class ShutdownVbox < Formula
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.1">
+    <plist version="1.0">
     <dict>
       <!--
 
