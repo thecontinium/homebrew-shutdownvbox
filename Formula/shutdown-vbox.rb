@@ -42,7 +42,7 @@ class ShutdownVbox < Formula
       <true/>
 
       <key>WorkingDirectory</key>
-      <string>/usr/loacl/bin</string>
+      <string>/usr/local/bin</string>
 
       <key>StandardOutPath</key>
       <string>/tmp/#{plist_name}.out</string>
